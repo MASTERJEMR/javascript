@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <!--SEO meta .... -->
+  <meta charset="UTF-8">
+  <meta name="description" content="Para este ejemplo, se genera un simulador que permite crear credenciales de acceso">
+  <meta name="keywords" content="gestión, desportes, gestión deportiva, gestión educativa">
+  <meta name="author" content="John Monroy">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!--Fuentes-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@800&family=Lato&family=Permanent+Marker&family=Poppins:wght@200;400;500;600;700;800;900&family=Tilt+Neon&display=swap" rel="stylesheet">
+  <!--Fav e Iconos-->
+  <link rel="apple-touch-icon" sizes="57x57" href="./images/fav/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="./images/fav//apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="./images/fav//apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="./images/fav//apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="./images/fav//apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="./images/fav//apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="./images/fav//apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="./images/fav//apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="./images/fav//apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="./images/fav//android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/fav//favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="./images/fav//favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./images/fav//favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
+  <!--Estilos-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/styles.css">
+  
+  <title>Hefestos</title>
+</head>
+<body class="container-fluid">
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top menu " data-bs-theme="dark">
+      <a class="navbar-brand" href="index.html"><img class="logo class="d-inline-block align-top" src="./images/fav/android-icon-72x72.png" alt="Hefestos Corp.">Hefestos</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Galería</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Noticias</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">productos</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              + Servicios
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Contactenos</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Soporte</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </nav>
+</header>
+  
+<main>
+
+<section>
+  <div id="carouselExampleAutoplaying" class="carrusel carousel slide col-8 mx-auto" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./images/home0.png" class="d-block w-100" alt="Deporte">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Las mejores Apps</h5>
+          <p>Diseñamos herramientas a su medida</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./images/home2.jpg" class="d-block w-100" alt="Competencia">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Las mejores Apps</h5>
+          <p>Diseñamos herramientas a su medida</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="./images/home1.jpg" class="d-block w-100" alt="Superación">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Las mejores Apps</h5>
+          <p>Diseñamos herramientas a su medida</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div> 
+</section>
+<div class="productos">
+  <h1>Nuestros productos</h1>
+</div>
+<div class="productos  col-8 mx-auto">
+  
+  <div class="producto">
+
+    <h2>Logistica</h2>
+            <img src="./images/Service2.png" alt="logistica"> <hr>
+            <p>Nuestra red de expertos desarrollamos la logística de cualquier evento deportivo</p>
+  </div>
+  <div class="producto">
+
+    <h2>Carnetización</h2>
+    <img src="./images/Service3.png" alt="carnet"><hr>
+    <p>Generamos el carnet que su evento merece, físico o virtual. Administre el acceso a su evento</p>
+  </div>
+  <div class="producto">
+    <h2>Web Site</h2>
+            <img src="./images/Service1.png" alt="Website"><hr>
+            <p>Su imagen es su sitio web, su evento requiere de un sitio web que lo destaque y le permita brillar.</p>
+  </div>
+  <div class="producto">
+    <h2>Estadísticas</h2>
+    <img src="./images/Service2.png" alt="Estadísticas"><hr>
+    <p>Registramos, gestionamos y generamos todas las estadísticas que su evento requiere.</p>
+  </div>
+ 
+</div>
+
+</main>
+<footer class="position-absolute">
+  <p>© Copyright Efestos 2023 <br>by MASTERJEMR</p>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+</html>
