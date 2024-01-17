@@ -46,7 +46,7 @@ function verificacionMenu(option){
             break;    
             case "7": salir();
             break;
-            default: 
+            default: menu();
                 alert("El valor ingresado no es válido");
                 break;
         }
@@ -174,12 +174,12 @@ function llaves(){
 }
 //factura
 function factura(){
-    if(pago =="n"){
+
+    if(pago =="n" ){
         //n=nCarnets
         alert("El pago no ha sido realizado y no se pueden generar la factura")
         menu()
     }
-
 
     // crea un nuevo objeto `Date`
     var today = new Date();
@@ -189,7 +189,7 @@ function factura(){
 
     let linea="\n-------------------------------------------------------------\n"
 
-    alert("ingreso a factura")
+    
     let head ="                                   Efectos SA"+linea+"Sucursal: Colombia Av Siempre Vivas N 1-23"+linea+"Fecha de expedición: "
     head=head+now+"\nCliente: "+nameClient+"\nN Documento: "+nDocumento+linea;
     //head=head+"Material | Cantidad  | Valor Uni | Impuesto | Total\n"
@@ -207,5 +207,7 @@ function factura(){
 }
 
 function salir(){
-    alert("Que tenga un buen día")
+    alert("Que tenga un buen día") 
+    logout()
+    
 }
